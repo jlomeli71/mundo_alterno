@@ -1,0 +1,35 @@
+# ══════════════════════════════════════════
+#  En un Mundo Alterno — .gitignore
+# ══════════════════════════════════════════
+
+# Archivos de audio (temporales, se procesan antes de subir a YouTube)
+canciones/*.mp3
+canciones/*.wav
+canciones/*.flac
+canciones/*.aac
+canciones/*.ogg
+canciones/*.m4a
+canciones/*.wma
+canciones/*.aiff
+
+# Archivos de video (temporales, se suben directamente a YouTube)
+canciones/*.mp4
+canciones/*.mov
+canciones/*.avi
+canciones/*.mkv
+canciones/*.wmv
+canciones/*.flv
+canciones/*.webm
+canciones/*.m4v
+
+# Archivos de proyecto de edición (DAW / video)
+canciones/*.als       # Ableton Live
+canciones/*.flp       # FL Studio
+canciones/*.ptx       # Pro Tools
+canciones/*.logic
+canciones/*.band      # GarageBand
+canciones/*.prproj    # Premiere Pro
+canciones/*.aep       # After Effects
+
+# Instrucciones de desarrollo
+CLAUDE.md
